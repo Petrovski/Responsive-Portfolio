@@ -182,10 +182,10 @@ td {
     height: 100px;
 }
 
+
+
 @media screen and (max-width: 980px) {
-    body {
-        /* background: blue; */
-    }
+
     .container {
         width: 70%;
         float: left;
@@ -201,47 +201,96 @@ td {
         background: white;
     }
 
-    input {
-        width: 70px;
-    }
-
     h1 {
         margin-left: 20px;
     }
+
     ul {
         margin-right: 190px;
     }
     
-}
-@media screen and (max-width: 768px) {
-    body {
-        /* background: black; */
+    .portfolioimages {
+        width: 40%;
+        /* height: auto; */
     }
+    .smallinput {
+        width: 90%;
+    }
+    #biginput {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
 
     .container {
         width: 95%;
     }
+
     nav {
         margin-right: 120px;
+    }
+
+    .smallinput {
+        width: 90%;
+    }
+
+    #biginput {
+        width: 90%;
+    }
+
+    form {
+        width: 70%;
+        float: left;
     }
     
 }
 
 
 @media screen and (max-width: 640px) {
-    body {
-        /* background: red; */
-    }
+
     .container {
         width: 95%;
     }
+
     h1 {
         width: 100%;
     }
+
     nav {
-        margin-right: 60px;
+        margin: 90px 350px 0px 0px;
+        background: white;
+        padding-left: 75px;
     }
+
     header {
         position: static;
+    }
+
+    form {
+        width: 80%;
+        float: left;
+    }
+
+    .portfoliodiv {
+        width: 95%;
+        margin-top: 70px;
+    }
+
+    .portfolioimages {
+        width: 90%;
+    }
+
+    td {
+        width: 90%
+    }
+
+    .smallinput {
+        width: 90%;
+    }
+
+    #biginput {
+        width: 90%;
     }
 }
